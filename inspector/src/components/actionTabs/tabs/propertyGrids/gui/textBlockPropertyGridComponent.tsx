@@ -5,11 +5,11 @@ import { CommonControlPropertyGridComponent } from "./commonControlPropertyGridC
 import { TextBlock, TextWrapping } from "babylonjs-gui/2D/controls/textBlock";
 import { Control } from "babylonjs-gui/2D/controls/control";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { TextInputLineComponent } from "../../../lines/textInputLineComponent";
+import { TextInputLineComponent } from "../../../../../sharedUiComponents/lines/textInputLineComponent";
 import { LockObject } from "../lockObject";
-import { OptionsLineComponent } from "../../../lines/optionsLineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
+import { OptionsLineComponent } from "../../../../../sharedUiComponents/lines/optionsLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
 import { GlobalState } from '../../../../globalState';
 
 interface ITextBlockPropertyGridComponentProps {

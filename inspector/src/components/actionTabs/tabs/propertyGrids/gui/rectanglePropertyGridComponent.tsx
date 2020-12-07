@@ -5,8 +5,8 @@ import { CommonControlPropertyGridComponent } from "./commonControlPropertyGridC
 import { LockObject } from "../lockObject";
 import { Rectangle } from "babylonjs-gui/2D/controls/rectangle";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
 import { GlobalState } from '../../../../globalState';
 
 interface IRectanglePropertyGridComponentProps {

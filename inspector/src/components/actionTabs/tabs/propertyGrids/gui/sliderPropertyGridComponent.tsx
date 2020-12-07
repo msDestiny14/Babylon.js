@@ -5,9 +5,9 @@ import { CommonControlPropertyGridComponent } from "./commonControlPropertyGridC
 import { LineContainerComponent } from "../../../lineContainerComponent";
 import { LockObject } from "../lockObject";
 import { Slider } from "babylonjs-gui/2D/controls/sliders/slider";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { TextInputLineComponent } from "../../../lines/textInputLineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
+import { TextInputLineComponent } from "../../../../../sharedUiComponents/lines/textInputLineComponent";
 import { GlobalState } from '../../../../globalState';
 
 interface ISliderPropertyGridComponentProps {

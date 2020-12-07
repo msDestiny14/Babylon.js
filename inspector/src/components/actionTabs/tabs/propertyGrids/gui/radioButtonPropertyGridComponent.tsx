@@ -5,9 +5,9 @@ import { CommonControlPropertyGridComponent } from "./commonControlPropertyGridC
 import { LockObject } from "../lockObject";
 import { RadioButton } from "babylonjs-gui/2D/controls/radioButton";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
-import { TextInputLineComponent } from "../../../lines/textInputLineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
+import { TextInputLineComponent } from "../../../../../sharedUiComponents/lines/textInputLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
 import { GlobalState } from '../../../../globalState';
 
 interface IRadioButtonPropertyGridComponentProps {
