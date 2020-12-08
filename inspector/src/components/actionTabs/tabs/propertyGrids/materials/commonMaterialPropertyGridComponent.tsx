@@ -7,16 +7,16 @@ import { Constants } from "babylonjs/Engines/constants";
 import { Engine } from "babylonjs/Engines/engine";
 
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { SliderLineComponent } from "../../../lines/sliderLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
+import { SliderLineComponent } from "../../../../../sharedUiComponents/lines/sliderLineComponent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { TextLineComponent } from "../../../lines/textLineComponent";
-import { OptionsLineComponent, Null_Value } from "../../../lines/optionsLineComponent";
+import { TextLineComponent } from "../../../../../sharedUiComponents/lines/textLineComponent";
+import { OptionsLineComponent, Null_Value } from "../../../../../sharedUiComponents/lines/optionsLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
 import { CustomPropertyGridComponent } from '../customPropertyGridComponent';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
-import { TextInputLineComponent } from '../../../lines/textInputLineComponent';
+import { ButtonLineComponent } from '../../../../../sharedUiComponents/lines/buttonLineComponent';
+import { TextInputLineComponent } from '../../../../../sharedUiComponents/lines/textLineComponent';
 import { AnimationGridComponent } from '../animations/animationPropertyGridComponent';
 
 interface ICommonMaterialPropertyGridComponentProps {

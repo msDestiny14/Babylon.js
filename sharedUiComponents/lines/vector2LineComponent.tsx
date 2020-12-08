@@ -5,7 +5,7 @@ import { Observable } from "babylonjs/Misc/observable";
 import { NumericInputComponent } from "./numericInputComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-import { PropertyChangedEvent } from "../../propertyChangedEvent";
+import { PropertyChangedEvent } from '../../components/propertyChangedEvent';
 
 interface IVector2LineComponentProps {
     label: string;

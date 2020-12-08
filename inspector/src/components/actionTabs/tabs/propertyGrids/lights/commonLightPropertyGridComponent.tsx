@@ -3,13 +3,13 @@ import { Observable } from "babylonjs/Misc/observable";
 import { Light } from "babylonjs/Lights/light";
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
-import { TextLineComponent } from "../../../lines/textLineComponent";
+import { FloatLineComponent } from "../../../../../shareduicomponents/lines/floatLineComponent";
+import { TextLineComponent } from "../../../../../shareduicomponents/lines/textLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
 import { CustomPropertyGridComponent } from '../customPropertyGridComponent';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
-import { TextInputLineComponent } from '../../../lines/textInputLineComponent';
+import { ButtonLineComponent } from '../../../../../shareduicomponents/lines/buttonLineComponent';
+import { TextInputLineComponent } from '../../../../../shareduicomponents/lines/textInputLineComponent';
 import { AnimationGridComponent } from '../animations/animationPropertyGridComponent';
 
 interface ICommonLightPropertyGridComponentProps {

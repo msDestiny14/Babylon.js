@@ -5,9 +5,9 @@ import { Observable } from "babylonjs/Misc/observable";
 import { NumericInputComponent } from "./numericInputComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-import { PropertyChangedEvent } from "../../propertyChangedEvent";
 import { SliderLineComponent } from './sliderLineComponent';
 import { Tools } from 'babylonjs/Misc/tools';
+import { PropertyChangedEvent } from '../../sharedComponents/propertyChangedEvent';
 
 interface IVector3LineComponentProps {
     label: string;

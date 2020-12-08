@@ -3,15 +3,15 @@ import { Observable } from "babylonjs/Misc/observable";
 import { IShadowLight } from "babylonjs/Lights/shadowLight";
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
-import { OptionsLineComponent } from '../../../lines/optionsLineComponent';
+import { OptionsLineComponent } from '../../../../../sharedUiComponents/lines/optionsLineComponent';
 import { ShadowGenerator } from 'babylonjs/Lights/Shadows/shadowGenerator';
 import { CascadedShadowGenerator } from 'babylonjs/Lights/Shadows/cascadedShadowGenerator';
-import { SliderLineComponent } from '../../../lines/sliderLineComponent';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
+import { SliderLineComponent } from '../../../../../sharedUiComponents/lines/sliderLineComponent';
+import { ButtonLineComponent } from '../../../../../sharedUiComponents/lines/buttonLineComponent';
 import { DirectionalLight } from 'babylonjs/Lights/directionalLight';
 
 interface ICommonShadowLightPropertyGridComponentProps {

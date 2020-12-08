@@ -7,19 +7,19 @@ import { LockObject } from "../lockObject";
 import { LineContainerComponent } from '../../../lineContainerComponent';
 import { GlobalState } from '../../../../globalState';
 import { SpriteManager } from 'babylonjs/Sprites/spriteManager';
-import { TextInputLineComponent } from '../../../lines/textInputLineComponent';
-import { TextLineComponent } from '../../../lines/textLineComponent';
-import { CheckBoxLineComponent } from '../../../lines/checkBoxLineComponent';
-import { FloatLineComponent } from '../../../lines/floatLineComponent';
-import { SliderLineComponent } from '../../../lines/sliderLineComponent';
+import { TextInputLineComponent } from '../../../../../sharedUiComponents/lines/textInputLineComponent';
+import { TextLineComponent } from '../../../../../sharedUiComponents/lines/textLineComponent';
+import { CheckBoxLineComponent } from '../../../../../sharedUiComponents/lines/checkBoxLineComponent';
+import { FloatLineComponent } from '../../../../../sharedUiComponents/lines/floatLineComponent';
+import { SliderLineComponent } from '../../../../../sharedUiComponents/lines/sliderLineComponent';
 import { RenderingManager } from 'babylonjs/Rendering/renderingManager';
-import { TextureLinkLineComponent } from '../../../lines/textureLinkLineComponent';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
+import { TextureLinkLineComponent } from '../../../../../sharedUiComponents/lines/textureLinkLineComponent';
+import { ButtonLineComponent } from '../../../../../sharedUiComponents/lines/buttonLineComponent';
 import { Sprite } from 'babylonjs/Sprites/sprite';
 import { Tools } from 'babylonjs/Misc/tools';
-import { FileButtonLineComponent } from '../../../lines/fileButtonLineComponent';
+import { FileButtonLineComponent } from '../../../../../sharedUiComponents/lines/fileButtonLineComponent';
 import { Constants } from 'babylonjs/Engines/constants';
-import { OptionsLineComponent } from '../../../lines/optionsLineComponent';
+import { OptionsLineComponent } from '../../../../../sharedUiComponents/lines/optionsLineComponent';
 
 interface ISpriteManagerPropertyGridComponentProps {
     globalState: GlobalState;

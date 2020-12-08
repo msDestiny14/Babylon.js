@@ -6,13 +6,13 @@ import { AnimationGroup } from "babylonjs/Animations/animationGroup";
 import { Scene } from "babylonjs/scene";
 
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
-import { ButtonLineComponent } from "../../../lines/buttonLineComponent";
+import { ButtonLineComponent } from "../../../../../sharedUiComponents/lines/buttonLineComponent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { TextLineComponent } from "../../../lines/textLineComponent";
-import { SliderLineComponent } from "../../../lines/sliderLineComponent";
+import { TextLineComponent } from "../../../../../sharedUiComponents/lines/textLineComponent";
+import { SliderLineComponent } from "../../../../../sharedUiComponents/lines/sliderLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from "../../../../globalState";
-import { TextInputLineComponent } from "../../../lines/textInputLineComponent";
+import { TextInputLineComponent } from "../../../../../sharedUiComponents/lines/textInputLineComponent";
 
 interface IAnimationGroupGridComponentProps {
     globalState: GlobalState;

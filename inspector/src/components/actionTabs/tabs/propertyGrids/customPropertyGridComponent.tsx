@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Observable } from "babylonjs/Misc/observable";
 import { PropertyChangedEvent } from "../../../propertyChangedEvent";
-import { Color3LineComponent } from "../../lines/color3LineComponent";
+import { Color3LineComponent } from "../../../../shareduicomponents/lines/color3LineComponent";
 import { GlobalState } from '../../../globalState';
 import { IInspectable, InspectableType } from 'babylonjs/Misc/iInspectable';
-import { CheckBoxLineComponent } from '../../lines/checkBoxLineComponent';
-import { SliderLineComponent } from '../../lines/sliderLineComponent';
-import { Vector3LineComponent } from '../../lines/vector3LineComponent';
-import { QuaternionLineComponent } from '../../lines/quaternionLineComponent';
+import { CheckBoxLineComponent } from '../../../../shareduicomponents/lines/checkBoxLineComponent';
+import { SliderLineComponent } from '../../../../shareduicomponents/lines/sliderLineComponent';
+import { Vector3LineComponent } from '../../../../shareduicomponents/lines/vector3LineComponent';
+import { QuaternionLineComponent } from '../../../../shareduicomponents/lines/quaternionLineComponent';
 import { LineContainerComponent } from '../../lineContainerComponent';
-import { TextInputLineComponent } from '../../lines/textInputLineComponent';
+import { TextInputLineComponent } from '../../../../shareduicomponents/lines/textintput';
 import { LockObject } from './lockObject';
 
 interface ICustomPropertyGridComponentProps {

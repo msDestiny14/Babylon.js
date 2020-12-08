@@ -4,20 +4,20 @@ import { Observable } from "babylonjs/Misc/observable";
 
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { TextLineComponent } from "../../../lines/textLineComponent";
+import { TextLineComponent } from "../../../../../shareduicomponents/lines/textLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
 import { CustomPropertyGridComponent } from '../customPropertyGridComponent';
 import { IParticleSystem } from 'babylonjs/Particles/IParticleSystem';
-import { FloatLineComponent } from '../../../lines/floatLineComponent';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
-import { TextureLinkLineComponent } from '../../../lines/textureLinkLineComponent';
-import { OptionsLineComponent } from '../../../lines/optionsLineComponent';
+import { FloatLineComponent } from '../../../../../shareduicomponents/lines/floatLineComponent';
+import { ButtonLineComponent } from '../../../../../shareduicomponents/lines/buttonLineComponent';
+import { TextureLinkLineComponent } from '../../../../../shareduicomponents/lines/textureLinkLineComponent';
+import { OptionsLineComponent } from '../../../../../shareduicomponents/lines/optionsLineComponent';
 import { ParticleSystem } from 'babylonjs/Particles/particleSystem';
-import { Color4LineComponent } from '../../../lines/color4LineComponent';
-import { Vector3LineComponent } from '../../../lines/vector3LineComponent';
-import { CheckBoxLineComponent } from '../../../lines/checkBoxLineComponent';
-import { SliderLineComponent } from '../../../lines/sliderLineComponent';
+import { Color4LineComponent } from '../../../../../shareduicomponents/lines/color4LineComponent';
+import { Vector3LineComponent } from '../../../../../shareduicomponents/lines/vector3LineComponent';
+import { CheckBoxLineComponent } from '../../../../../shareduicomponents/lines/checkBoxLineComponent';
+import { SliderLineComponent } from '../../../../../shareduicomponents/lines/sliderLineComponent';
 import { BoxParticleEmitter } from 'babylonjs/Particles/EmitterTypes/boxParticleEmitter';
 import { ConeParticleEmitter } from 'babylonjs/Particles/EmitterTypes/coneParticleEmitter';
 import { CylinderParticleEmitter } from 'babylonjs/Particles/EmitterTypes/cylinderParticleEmitter';
@@ -38,8 +38,8 @@ import { ValueGradientGridComponent, GradientGridMode } from './valueGradientGri
 import { Color3, Color4 } from 'babylonjs/Maths/math.color';
 import { GPUParticleSystem } from 'babylonjs/Particles/gpuParticleSystem';
 import { Tools } from 'babylonjs/Misc/tools';
-import { FileButtonLineComponent } from '../../../lines/fileButtonLineComponent';
-import { TextInputLineComponent } from '../../../lines/textInputLineComponent';
+import { FileButtonLineComponent } from '../../../../../shareduicomponents/lines/fileButtonLineComponent';
+import { TextInputLineComponent } from '../../../../../shareduicomponents/lines/textInputLineComponent';
 import { ParticleHelper } from 'babylonjs/Particles/particleHelper';
 
 interface IParticleSystemPropertyGridComponentProps {

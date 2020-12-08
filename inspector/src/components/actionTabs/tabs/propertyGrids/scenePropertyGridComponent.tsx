@@ -11,19 +11,19 @@ import { Scene } from "babylonjs/scene";
 
 import { PropertyChangedEvent } from "../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../lineContainerComponent";
-import { RadioButtonLineComponent } from "../../lines/radioLineComponent";
-import { Color3LineComponent } from "../../lines/color3LineComponent";
-import { CheckBoxLineComponent } from "../../lines/checkBoxLineComponent";
+import { RadioButtonLineComponent } from "../../../../sharedUiComponents/lines/radioLineComponent";
+import { Color3LineComponent } from "../../../../sharedUiComponents/lines/color3LineComponent";
+import { CheckBoxLineComponent } from "../../../../sharedUiComponents/lines/checkBoxLineComponent";
 import { FogPropertyGridComponent } from "./fogPropertyGridComponent";
-import { FileButtonLineComponent } from "../../lines/fileButtonLineComponent";
-import { TextureLinkLineComponent } from "../../lines/textureLinkLineComponent";
-import { Vector3LineComponent } from "../../lines/vector3LineComponent";
-import { FloatLineComponent } from "../../lines/floatLineComponent";
-import { SliderLineComponent } from "../../lines/sliderLineComponent";
-import { OptionsLineComponent } from "../../lines/optionsLineComponent";
+import { FileButtonLineComponent } from "../../../../sharedUiComponents/lines/fileButtonLineComponent";
+import { TextureLinkLineComponent } from "../../../../sharedUiComponents/lines/textureLinkLineComponent";
+import { Vector3LineComponent } from "../../../../sharedUiComponents/lines/vector3LineComponent";
+import { FloatLineComponent } from "../../../../sharedUiComponents/lines/floatLineComponent";
+import { SliderLineComponent } from "../../../../sharedUiComponents/lines/sliderLineComponent";
+import { OptionsLineComponent } from "../../../../sharedUiComponents/lines/optionsLineComponent";
 import { LockObject } from "./lockObject";
 import { GlobalState } from '../../../globalState';
-import { ButtonLineComponent } from '../../lines/buttonLineComponent';
+import { ButtonLineComponent } from '../../../../sharedUiComponents/lines/buttonLineComponent';
 import { AnimationGridComponent } from './animations/animationPropertyGridComponent';
 
 interface IScenePropertyGridComponentProps {

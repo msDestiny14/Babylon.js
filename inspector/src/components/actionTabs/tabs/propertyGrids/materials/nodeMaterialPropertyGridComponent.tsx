@@ -8,18 +8,18 @@ import { LineContainerComponent } from "../../../lineContainerComponent";
 import { CommonMaterialPropertyGridComponent } from "./commonMaterialPropertyGridComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
-import { CheckBoxLineComponent } from '../../../lines/checkBoxLineComponent';
-import { FloatLineComponent } from '../../../lines/floatLineComponent';
-import { Color3LineComponent } from '../../../lines/color3LineComponent';
-import { Vector3LineComponent } from '../../../lines/vector3LineComponent';
-import { Vector4LineComponent } from '../../../lines/vector4LineComponent';
-import { Vector2LineComponent } from '../../../lines/vector2LineComponent';
-import { TextureLinkLineComponent } from '../../../lines/textureLinkLineComponent';
-import { SliderLineComponent } from '../../../lines/sliderLineComponent';
+import { ButtonLineComponent } from '../../../../../sharedUiComponents/lines/buttonLineComponent';
+import { CheckBoxLineComponent } from '../../../../../sharedUiComponents/lines/checkBoxLineComponent';
+import { FloatLineComponent } from '../../../../../sharedUiComponents/lines/floatLineComponent';
+import { Color3LineComponent } from '../../../../../sharedUiComponents/lines/color3LineComponent';
+import { Vector3LineComponent } from '../../../../../sharedUiComponents/lines/vector3LineComponent';
+import { Vector4LineComponent } from '../../../../../sharedUiComponents/lines/vector4LineComponent';
+import { Vector2LineComponent } from '../../../../../sharedUiComponents/lines/vector2LineComponent';
+import { TextureLinkLineComponent } from '../../../../../sharedUiComponents/lines/textureLinkLineComponent';
+import { SliderLineComponent } from '../../../../../sharedUiComponents/lines/sliderLineComponent';
 import { NodeMaterialBlockConnectionPointTypes } from 'babylonjs/Materials/Node/Enums/nodeMaterialBlockConnectionPointTypes';
 import { InputBlock } from 'babylonjs/Materials/Node/Blocks/Input/inputBlock';
-import { Color4LineComponent } from '../../../lines/color4LineComponent';
+import { Color4LineComponent } from '../../../../../sharedUiComponents/lines/color4LineComponent';
 import { GradientPropertyTabComponent } from '../../gradientNodePropertyComponent';
 
 interface INodeMaterialPropertyGridComponentProps {

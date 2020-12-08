@@ -9,22 +9,22 @@ import { CubeTexture } from "babylonjs/Materials/Textures/cubeTexture";
 
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { SliderLineComponent } from "../../../lines/sliderLineComponent";
-import { TextLineComponent } from "../../../lines/textLineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { TextureLineComponent } from "../../../lines/textureLineComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
-import { OptionsLineComponent } from "../../../lines/optionsLineComponent";
-import { FileButtonLineComponent } from "../../../lines/fileButtonLineComponent";
+import { SliderLineComponent } from "../../../../../sharedUiComponents/lines/sliderLineComponent";
+import { TextLineComponent } from "../../../../../sharedUiComponents/lines/textLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
+import { TextureLineComponent } from "../../../../../sharedUiComponents/lines/textureLineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
+import { OptionsLineComponent } from "../../../../../sharedUiComponents/lines/optionsLineComponent";
+import { FileButtonLineComponent } from "../../../../../sharedUiComponents/lines/fileButtonLineComponent";
 import { LockObject } from "../lockObject";
-import { ValueLineComponent } from "../../../lines/valueLineComponent";
+import { ValueLineComponent } from "../../../../../sharedUiComponents/lines/valueLineComponent";
 import { GlobalState } from "../../../../../components/globalState";
 
 import { AdvancedDynamicTextureInstrumentation } from "babylonjs-gui/2D/adtInstrumentation";
 import { AdvancedDynamicTexture } from "babylonjs-gui/2D/advancedDynamicTexture";
 import { CustomPropertyGridComponent } from '../customPropertyGridComponent';
-import { ButtonLineComponent } from '../../../lines/buttonLineComponent';
-import { TextInputLineComponent } from '../../../lines/textInputLineComponent';
+import { ButtonLineComponent } from '../../../../../sharedUiComponents/lines/buttonLineComponent';
+import { TextInputLineComponent } from '../../../../../sharedUiComponents/lines/textInputLineComponent';
 import { AnimationGridComponent } from '../animations/animationPropertyGridComponent';
 
 import { PopupComponent } from '../../../../popupComponent';

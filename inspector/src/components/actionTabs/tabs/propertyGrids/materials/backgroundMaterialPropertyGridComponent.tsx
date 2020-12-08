@@ -5,11 +5,11 @@ import { BackgroundMaterial } from "babylonjs/Materials/Background/backgroundMat
 
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { Color3LineComponent } from "../../../lines/color3LineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { SliderLineComponent } from "../../../lines/sliderLineComponent";
+import { Color3LineComponent } from "../../../../../sharedUiComponents/lines/color3LineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
+import { SliderLineComponent } from "../../../../../sharedUiComponents/lines/sliderLineComponent";
 import { CommonMaterialPropertyGridComponent } from "./commonMaterialPropertyGridComponent";
-import { TextureLinkLineComponent } from "../../../lines/textureLinkLineComponent";
+import { TextureLinkLineComponent } from "../../../../../sharedUiComponents/lines/textureLinkLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
 

@@ -4,9 +4,9 @@ import { Observable } from "babylonjs/Misc/observable";
 import { CommonCameraPropertyGridComponent } from "./commonCameraPropertyGridComponent";
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { Vector3LineComponent } from "../../../lines/vector3LineComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
+import { Vector3LineComponent } from "../../../../../sharedUiComponents/lines/vector3LineComponent";
+import { FloatLineComponent } from "../../../../../sharedUiComponents/lines/floatLineComponent";
+import { CheckBoxLineComponent } from "../../../../../sharedUiComponents/lines/checkBoxLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
 

@@ -3,9 +3,9 @@ import { Observable } from "babylonjs/Misc/observable";
 import { Scene } from "babylonjs/scene";
 
 import { PropertyChangedEvent } from "../../../propertyChangedEvent";
-import { Color3LineComponent } from "../../lines/color3LineComponent";
-import { FloatLineComponent } from "../../lines/floatLineComponent";
-import { OptionsLineComponent } from "../../lines/optionsLineComponent";
+import { Color3LineComponent } from "../../../../shareduicomponents/lines/color3LineComponent";
+import { FloatLineComponent } from "../../../../shareduicomponents/lines/floatLineComponent";
+import { OptionsLineComponent } from "../../../../shareduicomponents/lines/optionsLineComponent";
 import { LockObject } from "./lockObject";
 import { GlobalState } from '../../../globalState';
 

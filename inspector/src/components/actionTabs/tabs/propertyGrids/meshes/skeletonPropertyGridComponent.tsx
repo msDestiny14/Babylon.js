@@ -4,16 +4,16 @@ import { Observable } from "babylonjs/Misc/observable";
 
 import { PropertyChangedEvent } from "../../../../propertyChangedEvent";
 import { LineContainerComponent } from "../../../lineContainerComponent";
-import { CheckBoxLineComponent } from "../../../lines/checkBoxLineComponent";
-import { TextLineComponent } from "../../../lines/textLineComponent";
+import { CheckBoxLineComponent } from "../../../../../shareduicomponents/lines/checkBoxLineComponent";
+import { TextLineComponent } from "../../../../../shareduicomponents/lines/textLineComponent";
 import { LockObject } from "../lockObject";
 import { GlobalState } from '../../../../globalState';
 import { Skeleton } from 'babylonjs/Bones/skeleton';
 import { AnimationGridComponent } from '../animations/animationPropertyGridComponent';
 import { SkeletonViewer } from 'babylonjs/Debug/skeletonViewer';
 import { CustomPropertyGridComponent } from '../customPropertyGridComponent';
-import { OptionsLineComponent } from "../../../lines/optionsLineComponent";
-import { FloatLineComponent } from "../../../lines/floatLineComponent";
+import { OptionsLineComponent } from "../../../../../shareduicomponents/lines/optionsLineComponent";
+import { FloatLineComponent } from "../../../../../shareduicomponents/lines/floatLineComponent";
 
 
 interface ISkeletonPropertyGridComponentProps {
