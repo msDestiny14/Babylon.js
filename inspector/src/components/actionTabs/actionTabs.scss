@@ -196,6 +196,52 @@ $line-padding-left: 2px;
                     margin-right: 5px;
                 }
         
+                .floatLine {
+                    padding-left: $line-padding-left;
+                    height: 30px;
+                    display: grid;
+                    grid-template-columns: 1fr 120px;
+            
+            
+                    .label {
+                        grid-column: 1;
+                        display: flex;
+                        align-items: center;
+                    }
+            
+                    .value {
+                        grid-column: 2;
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        input {
+                            width: 110px;
+                        }
+                    }
+            
+                    .short {
+                        grid-column: 2;
+                        
+                        display: flex;
+                        align-items: center;
+                        
+                        input {
+                            width: 27px;
+                        }
+                        
+                        input::-webkit-outer-spin-button,
+                        input::-webkit-inner-spin-button {
+                          -webkit-appearance: none;
+                          margin: 0;
+                        }
+            
+                        input[type=number] {
+                            -moz-appearance: textfield;
+                        }
+                    }
+
+                }
                 .step-slider {            
                     grid-row: 1;
                     grid-column: 4;
