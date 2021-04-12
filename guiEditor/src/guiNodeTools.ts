@@ -30,7 +30,9 @@ export class GUINodeTools {
                 return element;
             case "ColorPicker":
                 element = new ColorPicker("ColorPicker");
-                break;
+                element.width = "15%";
+                element.height = "5%";
+                return element;
             case "Ellipse":
                 element = new Ellipse("Ellipse");
                 break;
@@ -45,7 +47,7 @@ export class GUINodeTools {
                 element.x2 = 100;
                 element.lineWidth = 5;
                 element.dash = [50, 10];
-                element.isPointerBlocker = true;
+                //element.isPointerBlocker;
                 return element;
             case "Text":
                 element = new TextBlock("Textblock");
@@ -79,12 +81,6 @@ export class GUINodeTools {
                 break;
             case "Grid":
                 element = new Grid("Grid");
-                element.addColumnDefinition(50, false);
-                element.addColumnDefinition(0.5);
-                element.addColumnDefinition(0.5);
-                element.addColumnDefinition(50, false);
-                element.addRowDefinition(0.5);
-                element.addRowDefinition(0.5);
                 element.isHighlighted = true;
                 element.isPointerBlocker = true;
                 return element;
@@ -102,7 +98,7 @@ export class GUINodeTools {
         element.width = "15%";
         element.height = "5%";
         element.color = "#FFFFFFFF";
-        element.isPointerBlocker = true;
+        //element.isPointerBlocker = true;
         return element;
     }
 }
