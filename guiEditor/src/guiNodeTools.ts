@@ -45,9 +45,9 @@ export class GUINodeTools {
                 element.y1 = 0;
                 element.y2 = 100;
                 element.x2 = 100;
-                element.lineWidth = 5;
-                element.dash = [50, 10];
-                //element.isPointerBlocker;
+                element.lineWidth = 50;
+                element.isHitTestVisible = true;
+                element.isPointerBlocker = true;
                 return element;
             case "Text":
                 element = new TextBlock("Textblock");
